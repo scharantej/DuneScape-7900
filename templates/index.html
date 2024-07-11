@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dune: Imperium</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1>Dune: Imperium</h1>
+<p>The board game inspired by the classic Dune novels and films.</p>
+<ul>
+{% for feature in features %}
+<li>{{ feature }}</li>
+{% endfor %}
+</ul>
+<a href="/purchase" class="btn btn-primary">Purchase Now</a>
+</div>
+</body>
+</html>
+
+
+
